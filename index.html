@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module_4 Assignment</title>
+  </head>
+  <body>
+    <div>
+      <h1><--Module_4 Solution----></h1>
+      <h2>
+        <-----Right click here and inspect element to check the console
+        out----->
+      </h2>
+    </div>
+
+    <script>
+      var myArray = [
+        "Yaakov",
+        "John",
+        "Jen",
+        "jason",
+        "paul",
+        "frank",
+        "larry",
+        "paula",
+        "laura",
+        "jim",
+      ];
+
+      for (var i = 0; i < myArray.length; i++) {
+        if (myArray[i].charAt(0) === "J" || myArray[i].charAt(0) === "j") {
+          console.log("Goodbye " + myArray[i]);
+        } else {
+          console.log("Hello " + myArray[i]);
+        }
+      }
+    </script>
+  </body>
+</html>
